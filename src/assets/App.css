@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.app img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.end {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  display: flex;
+  text-align: bottom;
+  border-top: 1px solid lightgrey;
+  justify-content: space-between;
+}
+
+.footer .trademark {
+  display: flex;
+  align-items: flex-end;
+}
+
+.body {
+  margin: 20px 20px 5px;
+}

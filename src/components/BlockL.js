@@ -1,6 +1,7 @@
 import React from "react";
-import Body from "./Body";
 import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 export default function block(props) {
   return (
     <Grid
@@ -18,7 +19,22 @@ export default function block(props) {
         sm={12}
         md={5}
       >
-        <Body />
+        <div className="info">
+          <Box sx={{ width: "100%", maxWidth: 500 }}>
+            <Typography
+              variant="h4"
+              gutterBottom
+              align="center"
+              sx={{ fontWeight: "bold" }}
+            >
+              Drawing, A Proven Method For Better Memorizing Powers!
+            </Typography>
+            <Typography variant="h5" gutterBottom align="center">
+              The BlackBoard, a chrome extension, is the right tool to jot down
+              things at a common place and never loose them.
+            </Typography>
+          </Box>
+        </div>
       </Grid>
       <Grid item xs={12} sm={12} md={5}>
         <img

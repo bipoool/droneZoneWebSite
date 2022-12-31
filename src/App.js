@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import "./assets/App.css";
 import Typography from "@mui/material/Typography";
 import Footer from "./components/Footer";
-import Block1 from "./components/BlockM";
+import BlockM from "./components/BlockM";
 import BlockL from "./components/BlockL";
 import BlockR from "./components/BlockR";
 import Contact from "./components/Card";
@@ -12,7 +12,7 @@ const App = () => {
     <div className="app">
       <Navbar />
       <div className="body">
-        <Block1 />
+        <BlockM />
         <Typography variant="h2" gutterBottom align="center">
           Features
         </Typography>

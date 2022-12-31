@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div className="icon">
-        <Svg height="100px" width="100px" />
+        <Svg height="80px" width="80px" />
       </div>
       <div className="trademark">
         <Typography variant="h5" gutterBottom align="right">

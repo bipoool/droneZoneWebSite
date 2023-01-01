@@ -25,7 +25,7 @@ const App = () => {
     <div className="app">
       <Navbar />
       <div className="body">
-        <Block btn={"button"} img={2} dir={"row"} body={content[0]}/>
+        <Block btn={"button"} img={4} dir={"row"} body={content[0]}/>
         <Typography variant="h2" gutterBottom align="center">
           Features
         </Typography>

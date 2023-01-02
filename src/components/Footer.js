@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
       <div className="trademark">
         <Typography variant="h6" gutterBottom align="right">
-          &copy; 2022, All Rights Reserved
+          &copy; 2023, All Rights Reserved
         </Typography>
       </div>
     </>

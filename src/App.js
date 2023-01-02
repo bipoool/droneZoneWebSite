@@ -37,7 +37,7 @@ const App = () => {
         {
           content.map((e, id) => 
             <div id={`Feature-${id+1}`} key={id}>
-              <Block btn={""} img={id+2} dir={e.type} body={e}/>
+              <Block btn={""} img={id+1} dir={e.type} body={e}/>
             </div>
           )
         }

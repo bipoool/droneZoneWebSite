@@ -6,6 +6,10 @@ import Footer from "./components/Footer";
 import Block from "./components/Block";
 import Contact from "./components/Card";
 const App = () => {
+  const mainContent = {
+    title : "Drawing, A Proven Method For Better Memorizing Powers!" ,
+    description : "The BlackBoard, a chrome extension, is the right tool to jot down things at a common place and never loose them.",
+  }
   const content = [{
     title : "Drawing, A Proven Method For Better Memorizing Powers!" ,
     description : "The BlackBoard, a chrome extension, is the right tool to jot down things at a common place and never loose them.",
@@ -31,11 +35,11 @@ const App = () => {
         </Typography>
 
         {
-          content.map((e, id) => (
-            <div id={`Feature-${id+1}`}>
-              <Block btn={""} img={id+1} dir={e.type} body={e}/>
+          content.map((e, id) => 
+            <div id={`Feature-${id+1}`} key={id}>
+              <Block btn={""} img={id+2} dir={e.type} body={e}/>
             </div>
-          ))
+          )
         }
   
         <div className="end">

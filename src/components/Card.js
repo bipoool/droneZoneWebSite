@@ -34,10 +34,10 @@ export default function BasicModal() {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Email:
+            <b>Email:</b> <i>dronezonepvtltd@gmail.com</i>
           </Typography>
           <Typography id="modal-modal-description" variant="h6" component="h2">
-            Number:
+            <b>Number:</b> <i>9818633496</i>
           </Typography>
         </Box>
       </Modal>

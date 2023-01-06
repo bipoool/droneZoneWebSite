@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { ReactComponent as Svg } from "../assets/images/drone3.svg";
 import { ReactComponent as Svg2 } from "../assets/images/form.svg";
 
-const pages = ["Feature-1", "Feature-2", "Feature-3"];
+const pages = ["Trace-Back", "Design", "Technology"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

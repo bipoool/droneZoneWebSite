@@ -31,7 +31,7 @@ export default function block(props) {
           </Box>
         </div>
         {props.btn === "button" ? (<div className="button">
-          <Button variant="contained" size="large" center>
+          <Button variant="contained" size="large" center sx={{my: 3}}>
             We Are Hiring!
           </Button>
         </div>) : null}

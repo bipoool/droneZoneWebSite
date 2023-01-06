@@ -31,7 +31,7 @@ export default function block(props) {
           </Box>
         </div>
         {props.btn === "button" ? (<div className="button">
-          <Button variant="contained" size="large" center sx={{my: 3}}>
+          <Button variant="contained" size="large" center sx={{my: 3}} href={"https://forms.gle/bmjbnZikXD46uAV26"} target="_blank" rel="noreferrer">
             We Are Hiring!
           </Button>
         </div>) : null}

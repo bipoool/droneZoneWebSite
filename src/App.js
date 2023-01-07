@@ -14,19 +14,19 @@ const App = () => {
     title : "Trace Back" ,
     description : "Don't worry about your flying, Even if it gets lost, it is going to come back to you. Track the Drone With active GPS location.",
     id:"Trace-Back",
-    type: "row"
+    type: "row-reverse"
   },
   {
     title : "Robust Design and Build" ,
     description : "High-Quality carbon fiber frame with a robust aerodynamic design will make your flights awesome",
     id:"Design",
-    type: "row-reverse"
+    type: "row"
   },
   {
     title : "Futuristic Technology" ,
     description : "With a high performace 32-Bit CPU and effitient computations it gives great performance with less power consumptions",
     id:"Technology",
-    type: "row"
+    type: "row-reverse"
   }];
   return (
     <div className="app">

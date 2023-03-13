@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { ReactComponent as Svg } from "../assets/images/drone3.svg";
 import { ReactComponent as Svg2 } from "../assets/images/form.svg";
 
-const pages = ["Feature-1", "Feature-2", "Feature-3"];
+const pages = ["Trace-Back", "Design", "Technology"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -91,24 +91,6 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            DroneZone
-          </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
@@ -121,7 +103,7 @@ function ResponsiveAppBar() {
               </Button>
             ))}
           </Box>
-          <Svg2 height="30px" width="30px" />
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScVKcsZtMly9B3yhnEIFtiKv9DCdeniH0JOr11QluzWrxo6HA/viewform" target="_blank" rel="noreferrer"><Svg2 height="30px" width="30px" /></a>
         </Toolbar>
       </Container>
     </AppBar>

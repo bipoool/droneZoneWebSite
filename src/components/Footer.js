@@ -8,8 +8,8 @@ export default function Footer() {
         <Svg height="80px" width="80px" />
       </div>
       <div className="trademark">
-        <Typography variant="h5" gutterBottom align="right">
-          &copy; 2022, All Rights Reserved
+        <Typography variant="h6" gutterBottom align="right">
+          &copy; 2023, All Rights Reserved
         </Typography>
       </div>
     </>
